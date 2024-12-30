@@ -4739,11 +4739,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JOBAYER\\OneDrive\\Tài liệu\\Student_Management_System\\Student_Management_System.csproj",
+      "projectUniqueName": "C:\\Users\\JOBAYER\\OneDrive\\Tài liệu\\ICT_BD_Contact_Information\\Student_Management_System.csproj",
       "projectName": "Student_Management_System",
-      "projectPath": "C:\\Users\\JOBAYER\\OneDrive\\Tài liệu\\Student_Management_System\\Student_Management_System.csproj",
+      "projectPath": "C:\\Users\\JOBAYER\\OneDrive\\Tài liệu\\ICT_BD_Contact_Information\\Student_Management_System.csproj",
       "packagesPath": "C:\\Users\\JOBAYER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JOBAYER\\OneDrive\\Tài liệu\\Student_Management_System\\obj\\",
+      "outputPath": "C:\\Users\\JOBAYER\\OneDrive\\Tài liệu\\ICT_BD_Contact_Information\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JOBAYER\\AppData\\Roaming\\NuGet\\NuGet.Config"

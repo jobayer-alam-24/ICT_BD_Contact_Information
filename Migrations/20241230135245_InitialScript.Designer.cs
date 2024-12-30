@@ -11,7 +11,7 @@ using Student_Management_System.Application;
 namespace Student_Management_System.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241229174153_InitialScript")]
+    [Migration("20241230135245_InitialScript")]
     partial class InitialScript
     {
         /// <inheritdoc />
@@ -47,7 +47,12 @@ namespace Student_Management_System.Migrations
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
+                    b.Property<int?>("StudentId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("StudentId");
 
                     b.ToTable("Contacts");
                 });
@@ -87,6 +92,15 @@ namespace Student_Management_System.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Students");
+                });
+
+            modelBuilder.Entity("Student_Management_System.Models.Contact", b =>
+                {
+                    b.HasOne("Student_Management_System.Models.Student", "Student")
+                        .WithMany()
+                        .HasForeignKey("StudentId");
+
+                    b.Navigation("Student");
                 });
 #pragma warning restore 612, 618
         }
